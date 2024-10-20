@@ -1,8 +1,8 @@
-const modalCloseBtn = document.querySelector(".close_btn");
-const modalWindow = document.querySelector("#p_member_nudge");
+const modalCloseBtn = document.querySelector(".close-btn");
+const modalWindow = document.querySelector("#p-member-nudge");
 const ageBasisContent = document.querySelector(".collectionBasisContents");
-const basisClose = document.querySelector(".btn_close_birth_date_msg");
-const basisOpen = document.querySelector(".btn_birth_date_msg");
+const basisClose = document.querySelector(".btn-close-birth-date-msg");
+const basisOpen = document.querySelector(".btn-birth-date-msg");
 const idInput = document.querySelector("#id");
 const idMessage = document.querySelector("#idFocusMsg"); // 아이디 입력창 클릭 시 나오는 검은 글씨
 const idMessageWarn = document.querySelector("#idCheckMsg1"); // 유효성 검사 빨간 글씨
@@ -36,7 +36,7 @@ idInput.addEventListener("input", () => validateUserId());
 
 // 아이디 유효성 검사 함수
 const validateUserId = () => {
-    const idPattern = /^[a-zA-Z0-9_]{4,20}$/; // 4~20자 영문, 숫자, 밑줄 허용
+    const idPattern = /^[a-zA-Z0-9-]{4,20}$/; // 4~20자 영문, 숫자, 밑줄 허용
     let isValid = idPattern.test(idInput.value); // 유효성 검사 결과
 
     if (isValid) {
@@ -68,12 +68,12 @@ const hideIdValidationMessages = () => {
 // ===========================================================================
 
 const passwordInput = document.querySelector("#password1");
-const passwordWarn = document.querySelector("#password1_warning_txt"); // 일반 경고
-const passwordRepWarn = document.querySelector("#password1_warning_txt_rep"); // 반복 문자 경고
-const passwordSafe = document.querySelector("#password1_good_txt"); // 유효한 메시지
-const passwordEye = document.querySelector("#masking_password"); // 눈알 버튼
-const passwordFocus = document.querySelectorAll(".focus_txt"); // 안내 문구
-const passwordInputBox = document.querySelector(".pass_box"); // 부모 요소
+const passwordWarn = document.querySelector("#password1-warning-txt"); // 일반 경고
+const passwordRepWarn = document.querySelector("#password1-warning-txt-rep"); // 반복 문자 경고
+const passwordSafe = document.querySelector("#password1-good-txt"); // 유효한 메시지
+const passwordEye = document.querySelector("#masking-password"); // 눈알 버튼
+const passwordFocus = document.querySelectorAll(".focus-txt"); // 안내 문구
+const passwordInputBox = document.querySelector(".pass-box"); // 부모 요소
 
 // 비밀번호 입력 시 안내 메시지와 눈알 처리
 passwordInput.addEventListener("focus", (e) => {
@@ -166,12 +166,12 @@ const togglePasswordMessages = (show) => {
 
 // =========================================================================================
 // 요소 선택
-const descBtn = document.querySelector("#sms_sent_code"); // 인증 요청 버튼
+const descBtn = document.querySelector("#sms-sent-code"); // 인증 요청 버튼
 const phoneComplete = document.querySelector("#name"); // 이름 섹션
 const birthComplete = document.querySelector("#birth"); // 생년월일 섹션
-const phoneArea = document.querySelector("#sms_cellnum_area"); // 휴대폰 번호 영역
-const phoneInput = document.querySelector("#sms_cellnum"); // 휴대폰 번호 입력 필드
-const completeMessage = document.querySelector("#sms_cellnum_desc"); // 인증 완료 메시지
+const phoneArea = document.querySelector("#sms-cellnum-area"); // 휴대폰 번호 영역
+const phoneInput = document.querySelector("#sms-cellnum"); // 휴대폰 번호 입력 필드
+const completeMessage = document.querySelector("#sms-cellnum-desc"); // 인증 완료 메시지
 
 // 테스트용 가짜 인증 데이터
 const mockUserData = {
@@ -214,18 +214,18 @@ const completeAuthentication = (data) => {
 };
 
 //  =============================================================================================
-const emailInput = document.querySelector("#sms_email_id");
-const wrongEmail = document.querySelector("#sms_msg_email1");
-const btnLink = document.querySelector("#email_msg");
-const emailAutoList = document.querySelector(".email_list");
-const submitBtn = document.querySelector("#btn_submit");
-const emailDomains = document.querySelectorAll(".email_domain");
-const txtInputs = document.querySelectorAll(".txt_input"); // strong 태그 안의 텍스트들
+const emailInput = document.querySelector("#sms-email-id");
+const wrongEmail = document.querySelector("#sms-msg-email1");
+const btnLink = document.querySelector("#email-msg");
+const emailAutoList = document.querySelector(".email-list");
+const submitBtn = document.querySelector("#btn-submit");
+const emailDomains = document.querySelectorAll(".email-domain");
+const txtInputs = document.querySelectorAll(".txt-input"); // strong 태그 안의 텍스트들
 
 // 이메일 유효성 검사 정규표현식
 const emailPattern = /^[^\s@]+@[^\s@]+\.[^\s@]+$/;
 
-// 이메일 입력 시 btn_link에 'on' 클래스 추가
+// 이메일 입력 시 btn-link에 'on' 클래스 추가
 emailInput.addEventListener("focus", () => {
     btnLink.classList.add("on");
 });
@@ -278,12 +278,12 @@ emailInput.addEventListener("input", () => {
 // ==================================체크박스===================================
 const agreeAllCheckbox = document.querySelector("#agreeAllPersonal");
 const mandatoryCheckboxes = document.querySelectorAll(
-    ".agree_article.depth2 input[type='checkbox'][id^='agree_']"
+    ".agree-article.depth2 input[type='checkbox'][id^='agree-']"
 ); // 필수 항목
 const optionalCheckboxes = document.querySelectorAll(
-    ".agree_article.depth2 input[type='checkbox']:not([id^='agree_'])"
+    ".agree-article.depth2 input[type='checkbox']:not([id^='agree-'])"
 ); // 선택 항목
-const submitBtn2 = document.querySelector(".btn_input_complete"); // 회원가입 버튼
+const submitBtn2 = document.querySelector(".btn-input-complete"); // 회원가입 버튼
 
 // 전체 동의 클릭 시 모든 항목 체크
 agreeAllCheckbox.addEventListener("change", (e) => {
@@ -444,7 +444,7 @@ mandatoryCheckboxes.forEach(
 );
 // =====================회원 정보 중복 모달=====================
 
-const alreadyIdSpan = document.querySelector("#p_already_id");
+const alreadyIdSpan = document.querySelector("#p-already-id");
 
 // 중복 확인 테스트용 모의 데이터
 const mockServerResponse = {

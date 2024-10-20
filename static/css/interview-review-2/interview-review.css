@@ -1,10 +1,10 @@
-#interview-sri-section.interview-layout-full {
+#interview-position-section.interview-layout-full {
     margin: 0;
     padding: 0;
     width: 100%;
 }
 
-#interview-sri-section {
+#interview-position-section {
     display: table;
     overflow: hidden;
     position: relative;
@@ -14,14 +14,14 @@
     padding: 0;
 }
 
-#interview-sri-wrap {
+#interview-position-wrap {
     display: table-row;
     width: 100%;
     height: 100%;
     margin: 0;
 }
 
-#interview-sri-section.interview-layout-full #interview-content {
+#interview-position-section.interview-layout-full #interview-content {
     margin: 0;
     width: 100%;
 }

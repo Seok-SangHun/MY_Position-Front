@@ -1,10 +1,10 @@
-const personTab = document.querySelector(".btn_tab.t_per");
-const companyTab = document.querySelector(".btn_tab.t_com");
-const personLogin = document.querySelector(".area_intergranted_login.person");
-const companyLogin = document.querySelector(".area_intergranted_login.company");
-const loginRater = document.querySelector(".link_rater");
+const personTab = document.querySelector(".btn-tab.t-per");
+const companyTab = document.querySelector(".btn-tab.t-com");
+const personLogin = document.querySelector(".area-intergranted-login.person");
+const companyLogin = document.querySelector(".area-intergranted-login.company");
+const loginRater = document.querySelector(".link-rater");
 const autologinCheckBox = document.querySelector(
-    '[name="autologin_check_box"]'
+    '[name="autologin-check-box"]'
 );
 
 personTab.addEventListener("click", () => toggleTabs(true));

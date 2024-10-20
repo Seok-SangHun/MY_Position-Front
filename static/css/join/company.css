@@ -638,7 +638,7 @@ h4{
 
 
 
-.cont-division .sri-radio-wrap .InpBox {
+.cont-division .position-radio-wrap .InpBox {
     margin: 16px 20px 16px 0;
 }
 
@@ -943,12 +943,12 @@ h4{
     font-weight: bold;
 }
 
-.layer-hope .area-search-job .sri-input {
+.layer-hope .area-search-job .position-input {
     width: 428px;
     box-sizing: border-box;
 }
 
-.sri-input[type="text"] {
+.position-input[type="text"] {
     margin-right: 6px;
     padding: 0 11px 1px 11px;
     height: 32px;
@@ -1011,11 +1011,11 @@ h4{
     vertical-align: top;
 }
 
-.sri-check.small {
+.position-check.small {
     height: 15px;
 }
 
-.sri-check {
+.position-check {
     display: inline-block;
     position: relative;
     height: 18px;
@@ -1023,7 +1023,7 @@ h4{
     cursor: pointer;
 }
 
-.sri-check .inp-check {
+.position-check .inp-check {
     position: absolute;
     top: 0;
     left: 0;
@@ -1033,7 +1033,7 @@ h4{
     opacity: 0.01;
     filter: alpha(opacity = 0.1);
 }
-.sri-check.small .inp-check {
+.position-check.small .inp-check {
     top: 1px;
     width: 13px;
     height: 13px;
@@ -1047,11 +1047,11 @@ input[type="checkbox"], input[type="radio"] {
     vertical-align: -1px;
 }
 
-.sri-radio.small .txt-check {
+.position-radio.small .txt-check {
     background-position: 0 -299px;
 }
 
-.sri-check.small .txt-check {
+.position-check.small .txt-check {
     padding: 0 7px 0 20px;
     height: 15px;
     font-size: 12px;
@@ -1059,7 +1059,7 @@ input[type="checkbox"], input[type="radio"] {
     background-position: 0 -99px;
 }
 
-.sri-check .txt-check {
+.position-check .txt-check {
     display: block;
     padding: 0 7px 0 29px;
     height: 18px;
@@ -1106,7 +1106,7 @@ body, input, button, textarea, select, table {
     line-height: 1.0;
 }
 
-.sri-check.sri-radio.small.check-on .txt-check {
+.position-check.position-radio.small.check-on .txt-check {
     background-position: 0 -349px;
 }
 
@@ -1143,7 +1143,7 @@ body, input, button, textarea, select, table {
     vertical-align: top;
 }
 
-.sri-check.small {
+.position-check.small {
     height: 15px;
 }
 
@@ -1223,7 +1223,7 @@ button {
     color: #5c667b;
 }
 
-.sri-check .txt-check {
+.position-check .txt-check {
     display: block;
     padding: 0 7px 0 29px;
     height: 18px;
@@ -1233,11 +1233,11 @@ button {
     background: url(//www.saraminimage.co.kr/ui/form/ico_checkbox.png) 0 0 no-repeat;
 }
 
-.sri-radio.small .txt-check {
+.position-radio.small .txt-check {
     background-position: 0 -299px;
 }
 
-.sri-check.sri-radio.small.check-on .txt-check {
+.position-check.position-radio.small.check-on .txt-check {
     background-position: 0 -349px;
 }
 
@@ -1379,7 +1379,7 @@ button {
     background-color: #fbfbfb;
 }
 
-.sri-check.small.check-on .txt-check {
+.position-check.small.check-on .txt-check {
     background-position: 0 -149px;
 }
 

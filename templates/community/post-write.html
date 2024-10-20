@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <link rel="stylesheet" href="/static/css/main.css" />
+        <link rel="stylesheet" href="/static/css/community/post-write.css" />
+        <title>게시글 작성</title>
+    </head>
+    <body>
+        <div id="position-section" class="layout-full">
+            <div id="position-wrap">
+                <div id="content">
+                    <div class="company-honest-qna">
+                        <div class="contents-container qna-write-wrap">
+                            <div class="qna-write-selection">
+                                <span class="qna-category-tit">카테고리</span>
+                                <div class="box-qna-category">
+                                    <button
+                                        type="button"
+                                        class="btn-category-select"
+                                    >
+                                        면접
+                                    </button>
+                                </div>
+                            </div>
+                            <div class="qna-wright-cont">
+                                <input
+                                    type="text"
+                                    name="qst-title"
+                                    id="qus-title"
+                                    value
+                                    class="qna-subject-input"
+                                    title="제목 입력"
+                                    placeholder="제목을 입력해주세요"
+                                />
+                                <div class="qna-write-post">
+                                    <div
+                                        class="editor-wrap h-max"
+                                        style="overflow: auto"
+                                        contenteditable="true"
+                                        id="qust-detail"
+                                        name="qust-detail"
+                                    ></div>
+                                    <div class="qna-input-bottom">
+                                        <input
+                                            type="file"
+                                            name="image-add[]"
+                                            id="image-add"
+                                            accept="image/*"
+                                        />
+                                        <label
+                                            for="image-add"
+                                            class="btn-image-add"
+                                            >이미지첨부
+                                        </label>
+                                        <span class="post-count">
+                                            <em>0</em>
+                                            /5000자
+                                        </span>
+                                    </div>
+                                </div>
+                                <div class="qna-write-tag"></div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="qna-write-foot">
+                        <button
+                            type="button"
+                            class="btn-type size-xl btn-qna-write"
+                        >
+                            게시글 등록
+                        </button>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </body>
+</html>
