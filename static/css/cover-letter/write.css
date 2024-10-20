@@ -834,3 +834,11 @@ li {
     background: var(--white);
 }
 
+.questionitem-question-item .questionitem-question-item-current{
+    z-index: 15;
+}
+
+.radiogroup-rdogroup .radiogroup-rdogroup-vertical{
+    gap: 16px;
+}
+

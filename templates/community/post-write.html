@@ -22,6 +22,107 @@
                                     >
                                         면접
                                     </button>
+                                    <ul class="list-qna-category">
+                                        <li>
+                                            <a
+                                                href="javascript:;"
+                                                class="category"
+                                                data-type="topic"
+                                                data-name="신입"
+                                            >
+                                                <span>신입</span>
+                                            </a>
+                                        </li>
+                                        <li>
+                                            <a
+                                                href="javascript:;"
+                                                class="category"
+                                                data-type="topic"
+                                                data-name="취준"
+                                            >
+                                                <span>취준</span>
+                                            </a>
+                                        </li>
+                                        <li>
+                                            <a
+                                                href="javascript:;"
+                                                class="category"
+                                                data-type="topic"
+                                                data-name="채용공고"
+                                            >
+                                                <span>채용공고</span>
+                                            </a>
+                                        </li>
+                                        <li>
+                                            <a
+                                                href="javascript:;"
+                                                class="category"
+                                                data-type="topic"
+                                                data-name="자소서"
+                                            >
+                                                <span>자소서</span>
+                                            </a>
+                                        </li>
+                                        <li>
+                                            <a
+                                                href="javascript:;"
+                                                class="category"
+                                                data-type="topic"
+                                                data-name="면접"
+                                            >
+                                                <span>면접</span>
+                                            </a>
+                                        </li>
+                                        <li>
+                                            <a
+                                                href="javascript:;"
+                                                class="category"
+                                                data-type="topic"
+                                            >
+                                                <span>Q&amp;A</span>
+                                            </a>
+                                        </li>
+                                        <li>
+                                            <a
+                                                href="javascript:;"
+                                                class="category"
+                                                data-type="topic"
+                                                data-name="커리어"
+                                            >
+                                                <span>커리어</span>
+                                            </a>
+                                        </li>
+                                        <li>
+                                            <a
+                                                href="javascript:;"
+                                                class="category"
+                                                data-type="topic"
+                                                data-name="이직"
+                                            >
+                                                <span>이직</span>
+                                            </a>
+                                        </li>
+                                        <li>
+                                            <a
+                                                href="javascript:;"
+                                                class="category"
+                                                data-type="topic"
+                                                data-name="퇴사"
+                                            >
+                                                <span>퇴사</span>
+                                            </a>
+                                        </li>
+                                        <li>
+                                            <a
+                                                href="javascript:;"
+                                                class="category"
+                                                data-type="topic"
+                                                data-name="잡담"
+                                            >
+                                                <span>잡담</span>
+                                            </a>
+                                        </li>
+                                    </ul>
                                 </div>
                             </div>
                             <div class="qna-wright-cont">
@@ -37,7 +138,6 @@
                                 <div class="qna-write-post">
                                     <div
                                         class="editor-wrap h-max"
-                                        style="overflow: auto"
                                         contenteditable="true"
                                         id="qust-detail"
                                         name="qust-detail"
@@ -75,5 +175,20 @@
                 </div>
             </div>
         </div>
+        <div id="dimmed" class="position-dimmed"></div>
+        <div class="modal-box layer-qna-alert" id="layer-qna-alert">
+            <div id="alert-text" class="modal-cont">
+                앗! 게시글 제목 입력하고 작성 완료해주세요!
+            </div>
+            <div class="btm-area">
+                <button type="button" class="btn-type size-m btn-confirm">
+                    확인
+                </button>
+            </div>
+            <button type="button" class="btn-close btn-layer-close" onclick="">
+                <span class="blind">닫기</span>
+            </button>
+        </div>
     </body>
+    <script src="/static/js/community/post-write.js"></script>
 </html>

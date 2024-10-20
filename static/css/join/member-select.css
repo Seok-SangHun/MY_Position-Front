@@ -197,7 +197,7 @@ button, label {
     margin: 40px 0;
 }
 
-[class*="BtnType"] {
+[class*="btn-type"] {
     display: inline-flex;
     position: relative;
     border: 1px solid var(--blue90);
@@ -218,7 +218,7 @@ button, label {
     background: var(--white);
 }
 
-[class*="BtnType"].SizeL {
+[class*="btn-type"].size-l {
     padding: 10px 15px 12px;
     height: 48px;
     font-size: 16px;

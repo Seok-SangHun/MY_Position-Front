@@ -31,7 +31,6 @@ ol, ul, li {
     list-style-type: none;
 }
 
-
 .join-header .area-util .util-item {
     display: flex;
     align-items: center;
@@ -62,7 +61,7 @@ ol, ul, li {
     width: 360px;
 }
 
-.TypoBox .Typo {
+.typo-box .typo {
     padding: 8px 12px;
     width: 100%;
     height: 38px;
@@ -80,7 +79,7 @@ ol, ul, li {
     background-color: #eff5ff;
 }
 
-.TypoBox .Typo.SizeL {
+.typo-box .typo.size-l {
     padding: 12px;
     height: 46px;
     font-size: 16px;
@@ -133,11 +132,11 @@ button, label {
     font-size: 16px;
 }
 
-.write-base .item .TypoBox {
+.write-base .item .typo-box {
     width: 100%;
 }
 
-.TypoBox {
+.typo-box {
     display: inline-block;
     position: relative;
     border: 1px solid var(--gray70);
@@ -146,7 +145,7 @@ button, label {
     background-color: var(--white);
 }
 
-.TypoBox .Typo.SizeL {
+.typo-box .typo.size-l {
     padding: 12px;
     height: 46px;
     font-size: 16px;
@@ -157,7 +156,7 @@ button, label {
     width: 100%;
 }
 
-.TypoBox .Typo {
+.typo-box .typo {
     padding: 8px 12px;
     width: 100%;
     height: 38px;
@@ -174,7 +173,7 @@ button, label {
     color: #8491A7;
 }
 
-.write-base .item .TypoBox.invalid {
+.write-base .item .typo-box.invalid {
     border-color: #dc3434;
 }
 
@@ -184,7 +183,7 @@ button, label {
     outline-offset: 2px;
 }
 
-.write-base .item .msgInvalid {
+.write-base .item .msg-invalid {
     display: block;
     clear: both;
     margin-top: 8px;
@@ -242,7 +241,7 @@ button {
     color: #5c667b;
 }
 
-.write-base .item .msgInvalid {
+.write-base .item .msg-invalid {
     display: block;
     clear: both;
     margin-top: 8px;
@@ -251,7 +250,7 @@ button {
     line-height: 20px;
 }
 
-[class*="BtnType"].SizeL {
+[class*="btn-type"].size-l {
     padding: 10px 15px 12px;
     height: 48px;
     font-size: 16px;
@@ -262,7 +261,7 @@ button {
     width: 100%;
 }
 
-[class*="BtnType"] {
+[class*="btn-type"] {
     display: inline-flex;
     position: relative;
     border: 1px solid var(--blue90);
@@ -276,7 +275,7 @@ button {
     align-items: center;
 }
 
-[class*="BtnType"]:hover {
+[class*="btn-type"]:hover {
     border-color: var(--blue100);
     background-color: var(--blue100);
 }
@@ -290,11 +289,11 @@ button {
     background-color: #eff5ff;
 }
 
-.TypoBox:has(.Typo:read-only)>.Typo {
+.typo-box:has(.typo:read-only)>.typo {
     color: var(--gray100);
 }
 
-.TypoBox:has(.Typo:read-only) {
+.typo-box:has(.typo:read-only) {
     border-color: var(--gray40);
     background: var(--gray20);
 }
@@ -314,7 +313,7 @@ button {
     background-size: 14px 14px;
 }
 
-.TipCont {
+.tip-cont {
     display: none;
     position: absolute;
     padding: 12px 16px 14px;
@@ -326,29 +325,28 @@ button {
     box-shadow: 2px 6px 16px rgba(0, 0, 0, 0.08);
 }
 
-
-.TipBox .TipCont.BottomCenter {
+.tip-box .tip-cont.bottom-center {
     bottom: calc(100% + 17px);
     left: 50%;
     transform: translateX(-50%);
 }
 
-.write-base .item .wrap-collection-basis .social-tooltip .TipCont {
+.write-base .item .wrap-collection-basis .social-tooltip .tip-cont {
     left: 8px;
 }
 
-.TipBox.Click .TipCont {
+.tip-box.click .tip-cont {
     padding-right: 44px;
 }
 
-.TipCont .TipTxt {
+.tip-cont .tip-txt {
     color: var(--gray100);
     font-size: 14px;
     line-height: 20px;
     white-space: nowrap;
 }
 
-.TipBox.Click .BtnClose {
+.tip-box.click .btn-close {
     position: absolute;
     top: 10px;
     right: 12px;
@@ -362,7 +360,7 @@ button {
     height: 1px;
 }
 
-.TipBox.Click .BtnClose:after {
+.tip-box.click .btn-close:after {
     display: block;
     width: 24px;
     height: 24px;
@@ -374,7 +372,7 @@ button {
     top: -20px;
 }
 
-.TipBox {
+.tip-box {
     position: relative;
 }
 
@@ -397,12 +395,12 @@ button {
     color: #5c667b;
 }
 
-.InpBox {
+.inp-box {
     display: inline-block;
     vertical-align: top;
 }
 
-.InpBox .Chk {
+.inp-box .chk {
     display: inline-block;
     position: relative;
     vertical-align: top;
@@ -415,7 +413,7 @@ input[type="checkbox"], input[type="radio"] {
     vertical-align: -1px;
 }
 
-.InpBox .Chk input {
+.inp-box .chk input {
     position: absolute;
     top: 0;
     width: 1px;
@@ -429,7 +427,7 @@ body, input, button, textarea, select, table {
     line-height: 1.0;
 }
 
-.InpBox .Chk .Lbl {
+.inp-box .chk .lbl {
     display: block;
     position: relative;
     color: var(--gray100);
@@ -437,12 +435,12 @@ body, input, button, textarea, select, table {
     line-height: 20px;
 }
 
-.InpBox .Chk.SizeL .Lbl {
+.inp-box .chk.size-l .lbl {
     font-size: 16px;
     line-height: 24px;
 }
 
-.InpBox .Chk .Lbl:before {
+.inp-box .chk .lbl:before {
     display: inline-block;
     margin-right: 8px;
     width: 18px;
@@ -454,32 +452,32 @@ body, input, button, textarea, select, table {
     content: '';
 }
 
-.InpBox .Chk.SizeL .Lbl:before {
+.inp-box .chk.size-l .lbl:before {
     width: 22px;
     height: 22px;
 }
 
-.InpBox .Chk input:checked~.Lbl:before {
+.inp-box .chk input:checked~.lbl:before {
     border-color: var(--blue90);
     background: var(--blue90);
-
 }
-.InpBox .Chk:hover input:checked+.Lbl:before {
+
+.inp-box .chk:hover input:checked+.lbl:before {
     background: var(--blue100);
 }
 
-.InpBox .Chk input:focus~.Lbl:before {
+.inp-box .chk input:focus~.lbl:before {
     border-radius: 4px;
     outline: 2px solid var(--blue100);
     outline-offset: 2px;
 }
 
-.InpBox .Chk input:checked~.Lbl:after {
+.inp-box .chk input:checked~.lbl:after {
     display: inline-block;
     border-color: var(--white);
 }
 
-.InpBox .Chk .Lbl:after {
+.inp-box .chk .lbl:after {
     display: none;
     position: absolute;
     top: 5px;
@@ -493,7 +491,7 @@ body, input, button, textarea, select, table {
     content: '';
 }
 
-.InpBox .Chk.SizeL .Lbl:after {
+.inp-box .chk.size-l .lbl:after {
     top: 7px;
     left: 6px;
     width: 10px;
@@ -534,9 +532,7 @@ input[type="checkbox"], input[type="radio"] {
     vertical-align: -1px;
 }
 
-
-
-.InpBox .Chk input {
+.inp-box .chk input {
     position: absolute;
     top: 0;
     width: 1px;
@@ -561,8 +557,6 @@ input[type="checkbox"], input[type="radio"] {
     padding-bottom: 100px;
 }
 
-
-
 .btn-join button {
     width: 100%;
 }
@@ -571,7 +565,7 @@ input[type="checkbox"], input[type="radio"] {
     margin-bottom: 0;
 }
 
-.ModalBox {
+.modal-box {
     display: none;
     position: fixed;
     top: 50%;
@@ -585,15 +579,14 @@ input[type="checkbox"], input[type="radio"] {
     transform: translateY(-50%) translateX(-50%) translateZ(0);
 }
 
-.ModalBox.member-nudge {
+.modal-box.member-nudge {
     top: 50%;
     left: 50%;
     width: 560px;
     transform: translate(-50%, -50%);
 }
 
-
-.ModalBox .Tit {
+.modal-box .tit {
     margin-bottom: 24px;
     color: var(--gray120);
     font-size: 20px;
@@ -601,47 +594,47 @@ input[type="checkbox"], input[type="radio"] {
     line-height: 28px;
 }
 
-.ModalBox .ModalCont {
+.modal-box .modal-cont {
     color: var(--gray90);
     font-size: 14px;
     line-height: 20px;
 }
 
-.ModalBox.member-nudge .id-already {
+.modal-box.member-nudge .id-already {
     margin-top: 24px;
     color: #373f57;
     font-size: 16px;
 }
 
-.ModalBox.member-nudge .id-already strong {
+.modal-box.member-nudge .id-already strong {
     margin-left: 8px;
     color: #2d65f2;
 }
 
-.ModalBox .BtmArea {
+.modal-box .btm-area {
     display: flex;
     margin-top: 24px;
     justify-content: center;
 }
 
-.ModalBox.member-nudge .BtmArea .BtnType.search-user {
+.modal-box.member-nudge .btm-area .btn-type.search-user {
     border-color: var(--gray80);
     color: var(--gray100);
     background: var(--white);
 }
 
-.ModalBox .BtmArea .BtnType {
+.modal-box .btm-area .btn-type {
     min-width: 100px;
 }
 
-[class*="BtnType"].SizeM {
+[class*="btn-type"].size-m {
     padding: 6px 11px;
     height: 40px;
     font-size: 14px;
     line-height: 24px;
 }
 
-[class*="BtnType"] {
+[class*="btn-type"] {
     display: inline-flex;
     position: relative;
     border: 1px solid var(--blue90);
@@ -655,29 +648,29 @@ input[type="checkbox"], input[type="radio"] {
     align-items: center;
 }
 
-.ModalBox .BtmArea .BtnType+.BtnType {
+.modal-box .btm-area .btn-type+.btn-type {
     margin-left: 8px;
 }
 
-.ModalBox .BtmArea .BtnType {
+.modal-box .btm-area .btn-type {
     min-width: 100px;
 }
 
-[class*="BtnType"].SizeM {
+[class*="btn-type"].size-m {
     padding: 6px 11px;
     height: 40px;
     font-size: 14px;
     line-height: 24px;
 }
 
-.ModalBox .BtnClose {
+.modal-box .btn-close {
     position: absolute;
     top: 16px;
     right: 16px;
     z-index: 10;
 }
 
-.ModalBox .BtnClose:after {
+.modal-box .btn-close:after {
     display: block;
     width: 24px;
     height: 24px;
@@ -685,13 +678,13 @@ input[type="checkbox"], input[type="radio"] {
     content: "";
 }
 
-.ModalBox.member-nudge .BtmArea .BtnType.search-user {
+.modal-box.member-nudge .btm-area .btn-type.search-user {
     border-color: var(--gray80);
     color: var(--gray100);
     background: var(--white);
 }
 
-.ModalBox.member-nudge .BtmArea .BtnType.search-user:hover {
+.modal-box.member-nudge .btm-area .btn-type.search-user:hover {
     background: var(--gray20);
 }
 
@@ -714,7 +707,7 @@ input[type="checkbox"], input[type="radio"] {
 
 .write-base .item .wrap-collection-basis .btn-link.on {
     color: #2d65f2;
-    background: url(/static/images/join/infoOn.svg) 0 50% no-repeat;
+    background: url(/static/images/join/info-on.svg) 0 50% no-repeat;
     background-size: 14px 14px;
 }
 
@@ -746,7 +739,7 @@ input[type="checkbox"], input[type="radio"] {
 }
 
 /* 비활성화 상태 */
-.BtnType.is-disabled {
+.btn-type.is-disabled {
     border-color: var(--gray40) !important;
     color: var(--gray50) !important;
     background-color: var(--gray20) !important;
@@ -755,14 +748,14 @@ input[type="checkbox"], input[type="radio"] {
 }
 
 /* 활성화 상태 */
-.BtnType {
+.btn-type {
     border: 1px solid var(--blue90);
     color: var(--white);
     background-color: var(--blue90);
     cursor: pointer; /* 활성화 상태에서 포인터 커서 */
 }
 
-.TypoBox:has(.Typo:read-only) {
+.typo-box:has(.typo:read-only) {
     border-color: var(--gray40);
     background: var(--gray20);
 }
@@ -771,10 +764,9 @@ input[type="checkbox"], input[type="radio"] {
     display: block;
     width: 24px;
     height: 24px;
-    background: url(/static/images/join/closeBtn.svg) 50% no-repeat;
+    background: url(/static/images/join/close-btn.svg) 50% no-repeat;
     content: "";
 }
-
 
 .area-corp-certification .box-file-upload .file-view:before {
     display: block;
@@ -809,7 +801,7 @@ input[type="checkbox"], input[type="radio"] {
     display: block;
     width: 24px;
     height: 24px;
-    background: url(/static/images/join/closeBtn.svg) 50% no-repeat;
+    background: url(/static/images/join/close-btn.svg) 50% no-repeat;
     content: "";
 }
 
@@ -828,3 +820,73 @@ button {
 .area-corp-certification {
     position: relative;
 }
+
+#id {
+    ime-mode: disabled;
+}
+
+#password1 {
+    ime-mode: inactive;
+}
+
+#sms-email-id {
+    ime-mode: inactive;
+}
+
+#id-focus-msg {
+    display: none;
+}
+
+#id-check-msg1,
+#id-check-msg2,
+#id-check-msg3 {
+    display: none;
+}
+
+#password1-focus-msg {
+    display: none;
+}
+
+#password1-warning-txt,
+#password1-warning-txt-rep,
+#password1-good-txt {
+    display: none;
+}
+
+#name {
+    display: none;
+}
+
+#birth {
+    display: none;
+}
+
+.tip-cont.bottom-center.collection-basis-contents {
+    display: none;
+}
+
+.auto-list-area.email-list {
+    display: none;
+}
+
+#sms-msg-email1,
+#msg-email2 {
+    display: none;
+}
+
+.hidden-check-all {
+    display: none;
+}
+
+/* #sms-cellnum {
+    display: none;
+} */
+
+#sms-cellnum-desc {
+    display: none;
+}
+
+#sms-cellnum-area{
+    display: none;
+}
+

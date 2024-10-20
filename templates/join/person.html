@@ -110,31 +110,26 @@
                                                 <label for="id">
                                                     <strong>아이디</strong>
                                                 </label>
-                                                <div class="TypoBox">
+                                                <div class="typo-box">
                                                     <input
                                                         type="text"
                                                         name="id"
                                                         id="id"
-                                                        class="Typo SizeL defalt"
+                                                        class="typo size-l defalt"
                                                         maxlength="20"
-                                                        style="
-                                                            ime-mode: disabled;
-                                                        "
                                                         placeholder="4~20자리 / 영문, 숫자, 특수문자'-'사용가능"
                                                     />
                                                 </div>
                                                 <p
                                                     class="alert-column focus-txt"
-                                                    id="idFocusMsg"
-                                                    style="display: none"
+                                                    id="id-focus-msg"
                                                 >
                                                     4 ~ 20자의 영문, 숫자와
                                                     특수문자'-'만 사용해주세요.
                                                 </p>
                                                 <em
-                                                    class="msgInvalid"
-                                                    id="idCheckMsg1"
-                                                    style="display: none"
+                                                    class="msg-invalid"
+                                                    id="id-check-msg1"
                                                     ><span
                                                         class="less-important"
                                                         >4 ~ 20자의 영문, 숫자와
@@ -143,15 +138,13 @@
                                                     ></em
                                                 >
                                                 <em
-                                                    class="msgInvalid rep"
-                                                    id="idCheckMsg2"
-                                                    style="display: none"
+                                                    class="msg-invalid rep"
+                                                    id="id-check-msg2"
                                                     >이미 사용중인 ID입니다.</em
                                                 >
                                                 <p
                                                     class="alert-column good-txt"
-                                                    id="idCheckMsg3"
-                                                    style="display: none"
+                                                    id="id-check-msg3"
                                                 >
                                                     사용가능한 ID입니다.
                                                 </p>
@@ -161,11 +154,11 @@
                                                 <label for="password1">
                                                     <strong>비밀번호</strong>
                                                 </label>
-                                                <div class="TypoBox pass-box">
+                                                <div class="typo-box pass-box">
                                                     <input
                                                         autocapitalize="off"
                                                         name="password1"
-                                                        class="Typo SizeL defalt"
+                                                        class="typo size-l defalt"
                                                         id="password1"
                                                         type="password"
                                                         maxlength="16"
@@ -178,30 +171,26 @@
                                                         toggle="#password1"
                                                         id="masking-password"
                                                         class="toggle-password field-eye on"
-                                                        style="display: none"
                                                     ></button>
                                                 </div>
                                                 <p
                                                     class="alert-column focus-txt"
-                                                    id="password1FocusMsg"
-                                                    style="display: none"
+                                                    id="password1-focus-msg"
                                                 >
                                                     8~16자리 영문 대소문자,
                                                     숫자, 특수문자 중 3가지 이상
                                                     조합으로 만들어주세요.
                                                 </p>
                                                 <em
-                                                    class="msgInvalid"
+                                                    class="msg-invalid"
                                                     id="password1-warning-txt"
-                                                    style="display: none"
                                                     >8~16자리 영문 대소문자,
                                                     숫자, 특수문자 중 3가지 이상
                                                     조합으로 만들어주세요.</em
                                                 >
                                                 <em
-                                                    class="msgInvalid"
+                                                    class="msg-invalid"
                                                     id="password1-warning-txt-rep"
-                                                    style="display: none"
                                                     >3자리 이상 반복되는 영문,
                                                     숫자, 특수문자는 비밀번호로
                                                     사용할 수 없습니다.</em
@@ -209,7 +198,6 @@
                                                 <p
                                                     class="alert-column good-txt"
                                                     id="password1-good-txt"
-                                                    style="display: none"
                                                 >
                                                     사용 가능한 비밀번호예요!
                                                 </p>
@@ -217,9 +205,7 @@
                                             <!-- 휴대폰 인증 -->
                                             <div
                                                 class="item identify-phone"
-                                                name="phone-certi-list
-                                             "
-                                                style="display: block"
+                                                name="phone-certi-list"
                                             >
                                                 <div class="item-tit">
                                                     <strong>휴대폰</strong>
@@ -227,47 +213,88 @@
                                                 <button
                                                     type="button"
                                                     id="sms-sent-code"
-                                                    class="BtnType SizeL btn-sert-pop btn-identify-phone"
+                                                    class="btn-type size-l btn-sert-pop btn-identify-phone"
                                                 >
                                                     인증요청
                                                 </button>
                                                 <div
-                                                    class="TypoBox"
+                                                    class="typo-box"
                                                     id="sms-cellnum-area"
-                                                    style="display: none"
                                                 >
                                                     <input
                                                         type="text"
                                                         id="sms-cellnum"
                                                         name="tmp-cellnum"
-                                                        class="Typo SizeL join-input defalt"
+                                                        class="typo size-l join-input defalt"
                                                         readonly=""
                                                     />
                                                 </div>
                                                 <p
                                                     class="alert-column good-txt"
                                                     id="sms-cellnum-desc"
-                                                    style="display: none"
                                                 >
                                                     인증이 완료되었습니다.
                                                 </p>
+                                                <!-- 인증번호 입력창 추가 -->
+
+                                                <div class="item">
+                                                    <label for="sms-code">
+                                                        <strong
+                                                            >인증번호</strong
+                                                        >
+                                                    </label>
+                                                    <div
+                                                        class="typo-box pass-box"
+                                                    >
+                                                        <input
+                                                            autocapitalize="off"
+                                                            name="sms-code"
+                                                            class="typo size-l defalt"
+                                                            id="sms-code"
+                                                            type="text"
+                                                            maxlength="6"
+                                                            autocomplete="off"
+                                                            placeholder="인증번호 입력"
+                                                            data-gtm-form-interact-field-id="4"
+                                                        />
+                                                    </div>
+                                                    <p
+                                                        class="alert-column focus-txt"
+                                                        id="sms-code-focus-msg"
+                                                    >
+                                                        발송된 6자리 인증번호를
+                                                        입력해주세요.
+                                                    </p>
+                                                    <em
+                                                        class="msg-invalid"
+                                                        id="sms-code-warning-txt"
+                                                        >잘못된 인증번호입니다.
+                                                        다시 시도해주세요.</em
+                                                    >
+                                                    <p
+                                                        class="alert-column good-txt"
+                                                        id="sms-code-good-txt"
+                                                    >
+                                                        인증이 완료되었습니다!
+                                                    </p>
+                                                </div>
                                             </div>
+
                                             <!-- 인증 후 뜨는 입력창(입력 불가) -->
                                             <!-- 이름 -->
                                             <div
                                                 class="item identify-phone-complete"
                                                 id="name"
-                                                style="display: none"
                                             >
                                                 <label for="user-nm" class="on"
                                                     ><strong
                                                         >이름</strong
                                                     ></label
                                                 >
-                                                <div class="TypoBox">
+                                                <div class="typo-box">
                                                     <input
                                                         type="text"
-                                                        class="Typo SizeL defalt inp-user-nm"
+                                                        class="typo size-l defalt inp-user-nm"
                                                         autocapitalize="off"
                                                         readonly=""
                                                     />
@@ -277,7 +304,6 @@
                                             <div
                                                 class="item identify-phone-complete"
                                                 id="birth"
-                                                style="display: none"
                                             >
                                                 <label
                                                     for="birth-date"
@@ -285,10 +311,10 @@
                                                 >
                                                     <strong>생년월일</strong>
                                                 </label>
-                                                <div class="TypoBox">
+                                                <div class="typo-box">
                                                     <input
                                                         type="number"
-                                                        class="Typo SizeL defalt inp-birth-date"
+                                                        class="typo size-l defalt inp-birth-date"
                                                         autocapitalize="off"
                                                         readonly=""
                                                     />
@@ -300,23 +326,21 @@
                                                         type="button"
                                                         class="btn-link btn-birth-date-msg"
                                                         aria-describedby="tootip-content-phone"
-                                                        style="cursor: pointer"
                                                         aria-expanded="false"
                                                     >
                                                         만 15세 이상인지 확인이
                                                         필요해요
                                                     </button>
                                                     <div
-                                                        class="TipBox social-tooltip Click"
+                                                        class="tip-box social-tooltip click"
                                                         id="tootip-content-phone"
                                                     >
                                                         <div
-                                                            class="TipCont BottomCenter collectionBasisContents"
-                                                            style="
-                                                                display: none;
-                                                            "
+                                                            class="tip-cont bottom-center collection-basis-contents"
                                                         >
-                                                            <div class="TipTxt">
+                                                            <div
+                                                                class="tip-txt"
+                                                            >
                                                                 취직 최저 연령에
                                                                 대한 제한<br />
                                                                 (근로기준법 제
@@ -324,7 +348,7 @@
                                                             </div>
                                                             <button
                                                                 type="button"
-                                                                class="BtnClose btnClose btn-close-birth-date-msg"
+                                                                class="btn-close btn-close-birth-date-msg"
                                                             >
                                                                 <span
                                                                     class="blind"
@@ -343,15 +367,12 @@
                                                         >이메일</strong
                                                     ></label
                                                 >
-                                                <div class="TypoBox defalt">
+                                                <div class="typo-box defalt">
                                                     <input
                                                         type="text"
                                                         id="sms-email-id"
                                                         name="tmp-email-id"
-                                                        style="
-                                                            ime-mode: inactive;
-                                                        "
-                                                        class="Typo SizeL defalt"
+                                                        class="typo size-l defalt"
                                                         placeholder="email@position.co.kr"
                                                         autocomplete="one-time-code"
                                                         data-gtm-form-interact-field-id="2"
@@ -361,7 +382,6 @@
                                                 <!-- 자동리스트 영역 -->
                                                 <ul
                                                     class="auto-list-area email-list"
-                                                    style="display: none"
                                                 >
                                                     <li class="auto-list">
                                                         <a
@@ -415,10 +435,9 @@
                                                     </li>
                                                 </ul>
                                                 <em
-                                                    class="msgInvalid"
+                                                    class="msg-invalid"
                                                     id="sms-msg-email1"
                                                     name="msg-email1"
-                                                    style="display: none"
                                                     >잘못된 이메일 주소입니다.
                                                     이메일 주소를 정확하게
                                                     입력해주세요.</em
@@ -426,7 +445,6 @@
                                                 <p
                                                     class="alert-column good-txt"
                                                     id="msg-email2"
-                                                    style="display: none"
                                                 >
                                                     인증되었습니다
                                                 </p>
@@ -452,16 +470,18 @@
                                         <div class="agree-box">
                                             <ul class="agree-article">
                                                 <li>
-                                                    <div class="InpBox">
-                                                        <span class="Chk SizeL">
+                                                    <div class="inp-box">
+                                                        <span
+                                                            class="chk size-l"
+                                                        >
                                                             <input
                                                                 type="checkbox"
                                                                 class="check-mail"
-                                                                id="agreeAllPersonal"
+                                                                id="agree-all-personal"
                                                             />
                                                             <label
-                                                                class="check-all check-off Lbl"
-                                                                for="agreeAllPersonal"
+                                                                class="check-all check-off lbl"
+                                                                for="agree-all-personal"
                                                             >
                                                                 <strong
                                                                     class="all-agree"
@@ -489,14 +509,14 @@
                                             <ul class="agree-article depth2">
                                                 <li>
                                                     <div class="agree-desc">
-                                                        <div class="InpBox">
-                                                            <span class="Chk">
+                                                        <div class="inp-box">
+                                                            <span class="chk">
                                                                 <input
                                                                     type="checkbox"
                                                                     id="agree-rule1"
                                                                 />
                                                                 <label
-                                                                    class="Lbl check-custom check-off"
+                                                                    class="lbl check-custom check-off"
                                                                     for="agree-rule1"
                                                                 >
                                                                     <span
@@ -524,14 +544,14 @@
                                                 </li>
                                                 <li>
                                                     <div class="agree-desc">
-                                                        <div class="InpBox">
-                                                            <span class="Chk">
+                                                        <div class="inp-box">
+                                                            <span class="chk">
                                                                 <input
                                                                     type="checkbox"
                                                                     id="agree-take1"
                                                                 />
                                                                 <label
-                                                                    class="Lbl check-custom check-off"
+                                                                    class="lbl check-custom check-off"
                                                                     for="agree-take1"
                                                                 >
                                                                     <span
@@ -549,7 +569,7 @@
                                                         </div>
                                                     </div>
                                                     <a
-                                                        id="popupClausePrivacyPerson"
+                                                        id="popup-clause-privacy-person"
                                                         href=""
                                                         class="view-indetail popup-clause-open"
                                                         target="-blank"
@@ -563,17 +583,17 @@
                                                 </li>
                                                 <li>
                                                     <div class="agree-desc">
-                                                        <div class="InpBox">
-                                                            <span class="Chk">
+                                                        <div class="inp-box">
+                                                            <span class="chk">
                                                                 <input
                                                                     type="checkbox"
-                                                                    id="locationBased"
-                                                                    name="locationBased"
+                                                                    id="location-based"
+                                                                    name="location-based"
                                                                     value="y"
                                                                 />
                                                                 <label
-                                                                    class="Lbl check-custom check-off"
-                                                                    for="locationBased"
+                                                                    class="lbl check-custom check-off"
+                                                                    for="location-based"
                                                                 >
                                                                     <span
                                                                         >(선택)
@@ -586,7 +606,7 @@
                                                         </div>
                                                     </div>
                                                     <a
-                                                        id="popupTermsAgreeLb"
+                                                        id="popup-terms-agree-lb"
                                                         href=""
                                                         class="view-indetail popup-clause-open"
                                                         target="-blank"
@@ -600,18 +620,18 @@
                                                 </li>
                                                 <li>
                                                     <div class="agree-desc">
-                                                        <div class="InpBox">
-                                                            <span class="Chk">
+                                                        <div class="inp-box">
+                                                            <span class="chk">
                                                                 <input
                                                                     type="checkbox"
                                                                     class="check-mail"
-                                                                    id="termsAgree"
-                                                                    name="termsAgree"
+                                                                    id="terms-agree"
+                                                                    name="terms-agree"
                                                                     value="y"
                                                                 />
                                                                 <label
-                                                                    class="Lbl check-custom check-off"
-                                                                    for="termsAgree"
+                                                                    class="lbl check-custom check-off"
+                                                                    for="terms-agree"
                                                                 >
                                                                     <span
                                                                         >(선택)
@@ -626,7 +646,7 @@
                                                         </div>
                                                     </div>
                                                     <a
-                                                        id="popupEmailReceive"
+                                                        id="popup-email-receive"
                                                         href=""
                                                         class="view-indetail popup-clause-open"
                                                         target="-blank"
@@ -640,8 +660,8 @@
                                                 </li>
                                                 <li>
                                                     <div class="agree-desc">
-                                                        <div class="InpBox">
-                                                            <span class="Chk">
+                                                        <div class="inp-box">
+                                                            <span class="chk">
                                                                 <input
                                                                     type="checkbox"
                                                                     id="sms-receive-fl"
@@ -650,7 +670,7 @@
                                                                     data-gtm-form-interact-field-id="3"
                                                                 />
                                                                 <label
-                                                                    class="Lbl check-custom check-off"
+                                                                    class="lbl check-custom check-off"
                                                                     for="sms-receive-fl"
                                                                 >
                                                                     <span
@@ -666,7 +686,7 @@
                                                         </div>
                                                     </div>
                                                     <a
-                                                        id="popupSmsReceive"
+                                                        id="popup-sms-receive"
                                                         href=""
                                                         class="view-indetail popup-clause-open"
                                                         target="-blank"
@@ -685,7 +705,7 @@
                                         <button
                                             type="button"
                                             id="btn-submit"
-                                            class="inp-join BtnType SizeL defalt ga-data-layer btn-input-complete is-disabled"
+                                            class="inp-join btn-type size-l defalt ga-data-layer btn-input-complete is-disabled"
                                             data-ga-data-layer="ga-lead|member-join|join-pc|step-2"
                                         >
                                             회원가입 완료
@@ -695,12 +715,11 @@
                             </form>
                             <!-- 중복가입 알림 모달창 -->
                             <div
-                                class="member-nudge ModalBox"
+                                class="member-nudge modal-box"
                                 id="p-member-nudge"
-                                style="display: none"
                             >
-                                <h3 class="Tit">이미 가입된 정보입니다</h3>
-                                <div class="ModalCont">
+                                <h3 class="tit">이미 가입된 정보입니다</h3>
+                                <div class="modal-cont">
                                     <p class="txt-info">
                                         가입된 아이디에 회원님의 소중한 이력서와
                                         지원 내역 등이 있을 수 있어요!
@@ -711,20 +730,20 @@
                                             >example</strong
                                         >
                                     </div>
-                                    <div class="BtmArea">
+                                    <div class="btm-area">
                                         <a
                                             href=""
-                                            class="BtnType SizeM search-user"
+                                            class="btn-type size-m search-user"
                                             >비밀번호 찾기</a
                                         >
-                                        <a href="" class="BtnType SizeM"
+                                        <a href="" class="btn-type size-m"
                                             >로그인</a
                                         >
                                     </div>
                                 </div>
                                 <button
                                     type="button"
-                                    class="btnClose BtnClose close-btn"
+                                    class="btn-close btn-close"
                                 >
                                     <span class="blind">닫기</span>
                                 </button>

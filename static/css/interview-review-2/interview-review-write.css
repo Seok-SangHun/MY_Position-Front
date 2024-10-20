@@ -1268,3 +1268,17 @@ li {
 .common_panel .option_content.job_category_section .details .box_detail_depth {
     width: calc(100% - 204px);
 }
+
+table col:nth-child(1) {
+    width: 170px;
+}
+
+table col:nth-child(2) {
+    width: auto; /* 기본 너비로 설정, 따로 지정하지 않음 */
+}
+
+
+.interview-write-btn-basic-type02 .interview-write-btn-remove{
+    display: none;
+}
+

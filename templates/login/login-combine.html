@@ -88,7 +88,7 @@
                 <ul class="util">
                     <il class="util-item">
                         <a href="" class="util-menu menu-position">
-                            사람인 홈
+                            포지션 홈
                         </a>
                     </il>
                     <il class="util-item">
@@ -99,9 +99,9 @@
         </header>
         <div id="position-section" class="layout-wide">
             <div id="position-wrap">
-                <div id="content" class="intergrated-login-content">
+                <div id="content" class="integrated-login-content">
                     <div class="wrap-content" role="main">
-                        <div class="wrap-intergranted-login-page">
+                        <div class="wrap-integrated-login-page">
                             <input
                                 type="hidden"
                                 name="login-teb-default"
@@ -155,7 +155,6 @@
                                             ></path>
                                             <mask
                                                 id="mask0-2800-18175"
-                                                style="mask-type: luminance"
                                                 maskUnits="userSpaceOnUse"
                                                 x="71"
                                                 y="1"
@@ -205,14 +204,13 @@
                                     </a>
                                 </div>
                             </div>
-                            <div class="box-intergrated-login">
+                            <div class="box-integrated-login">
                                 <div class="box-left">
                                     <div
-                                        class="area-intergranted-login person person-logo"
-                                        style="display: block"
+                                        class="area-integrated-login person person-logo"
                                     >
                                         <strong class="tit">
-                                            다양한 사람인 서비스를<br />
+                                            다양한 포지션 서비스를<br />
                                             로그인 한 번으로<br />
                                             편하게 이용하세요!
                                         </strong>
@@ -220,17 +218,17 @@
                                             <a
                                                 href="javascript:void(0)"
                                                 id="person-join"
-                                                class="BtnType BlueInvert SizeL"
-                                                >개인 통합회원 가입
+                                                class="btn-type blue-invert size-l"
+                                            >
+                                                개인 통합회원 가입
                                             </a>
                                         </div>
                                     </div>
                                     <div
-                                        class="area-intergranted-login company company-logo"
-                                        style="display: none"
+                                        class="area-integrated-login company company-logo"
                                     >
                                         <strong class="tit">
-                                            다양한 사람인 서비스를<br />
+                                            다양한 포지션 서비스를<br />
                                             로그인 한 번으로<br />
                                             편하게 이용하세요!
                                         </strong>
@@ -238,8 +236,9 @@
                                             <a
                                                 href="javascript:void(0)"
                                                 id="company-join"
-                                                class="BtnType BlueInvert SizeL"
-                                                >기업 통합회원 가입
+                                                class="btn-type blue-invert size-l"
+                                            >
+                                                기업 통합회원 가입
                                             </a>
                                         </div>
                                     </div>
@@ -261,7 +260,8 @@
                                                         <button
                                                             type="button"
                                                             class="btn-tab t-per active"
-                                                            role="tab selected=true"
+                                                            role="tab"
+                                                            selected="true"
                                                             tabindex="0"
                                                             area-selected="true"
                                                         >
@@ -325,14 +325,11 @@
                                                         </div>
                                                         <div class="setting">
                                                             <div
-                                                                class="InpBox"
+                                                                class="inp-box"
                                                                 name="autologin-check-box"
-                                                                style="
-                                                                    display: block;
-                                                                "
                                                             >
                                                                 <span
-                                                                    class="Chk"
+                                                                    class="chk"
                                                                 >
                                                                     <input
                                                                         type="checkbox"
@@ -341,16 +338,18 @@
                                                                         data-gtm-form-interact-field-id="0"
                                                                     />
                                                                     <label
-                                                                        class="Lbl"
+                                                                        class="lbl"
                                                                         for="autologin"
                                                                         >로그인
                                                                         유지</label
                                                                     >
                                                                 </span>
                                                             </div>
-                                                            <div class="InpBox">
+                                                            <div
+                                                                class="inp-box"
+                                                            >
                                                                 <span
-                                                                    class="Chk"
+                                                                    class="chk"
                                                                 >
                                                                     <input
                                                                         type="checkbox"
@@ -359,7 +358,7 @@
                                                                         data-gtm-form-interact-field-id="1"
                                                                     />
                                                                     <label
-                                                                        class="Lbl"
+                                                                        class="lbl"
                                                                         for="id-save"
                                                                         >아이디
                                                                         저장</label
@@ -369,7 +368,7 @@
                                                         </div>
                                                         <button
                                                             type="submit"
-                                                            class="btn-login BtnType SizeML"
+                                                            class="btn-login btn-type size-ml"
                                                         >
                                                             로그인
                                                         </button>
@@ -381,22 +380,22 @@
                                                             href="/zf-user/helpdesk/idpw-find"
                                                             class="sign-up"
                                                             target=""
-                                                            >아이디 찾기</a
                                                         >
+                                                            아이디 찾기
+                                                        </a>
                                                         <a
                                                             href="/zf-user/helpdesk/idpw-find"
                                                             class="forgotten"
                                                             target=""
-                                                            >비밀번호 찾기</a
                                                         >
+                                                            비밀번호 찾기
+                                                        </a>
                                                         <a
                                                             href="/zf-user/applicant/rater/login-form"
                                                             class="link-rater"
-                                                            style="
-                                                                display: none;
-                                                            "
-                                                            >협업자 로그인</a
                                                         >
+                                                            협업자 로그인
+                                                        </a>
                                                     </div>
                                                     <div
                                                         class="social-login-tit"
@@ -437,6 +436,6 @@
                 </div>
             </div>
         </div>
+        <script src="/static/js/login/login-combine.js"></script>
     </body>
-    <script src="/static/js/login/login-combine.js"></script>
 </html>

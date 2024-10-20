@@ -41,8 +41,8 @@ a {
     align-items: center;
 }
 
-.integrated-header .area-util .menu-position:before{
-    background-image: url(/static/images/login/saramin-home.svg)
+.integrated-header .area-util .menu-position:before {
+    background-image: url(/static/images/login/saramin-home.svg);
 }
 
 .integrated-header .area-util .util-menu:before {
@@ -52,7 +52,7 @@ a {
     content: "";
 }
 
-.integrated-header .area-util .util-item+.util-item:before {
+.integrated-header .area-util .util-item + .util-item:before {
     margin: 0 16px;
     width: 1px;
     height: 12px;
@@ -60,7 +60,7 @@ a {
     content: "";
 }
 
-.integrated-header .area-util .menu-must:before{
+.integrated-header .area-util .menu-must:before {
     background-image: url(/static/images/login/saramin-must.svg);
 }
 
@@ -87,12 +87,11 @@ a {
     width: 960px;
 }
 
-
 #position-section.layout-wide #content {
     width: 1260px;
 }
 
-.wrap-intergranted-login-page {
+.wrap-integrated-login-page {
     display: flex;
     flex-direction: column;
     width: 1084px;
@@ -104,42 +103,31 @@ a {
     border-radius: 16px;
 }
 
-.wrap-intergranted-login-page .box-logo {
+.wrap-integrated-login-page .box-logo {
     margin-bottom: 50px;
     display: flex;
     align-items: center;
 }
 
-.wrap-intergranted-login-page .box-logo {
-    margin-bottom: 50px;
-    display: flex;
-    align-items: center;
-}
-
-.wrap-intergranted-login-page .box-logo .item-logo {
+.wrap-integrated-login-page .box-logo .item-logo {
     position: relative;
 }
 
-.wrap-intergranted-login-page .box-intergrated-login {
+.wrap-integrated-login-page .box-integrated-login {
     display: flex;
     height: 100%;
 }
 
-.wrap-intergranted-login-page .box-intergrated-login>div {
+.wrap-integrated-login-page .box-integrated-login > div {
     flex: 0 0 50%;
 }
 
-.wrap-intergranted-login-page .box-intergrated-login {
-    display: flex;
-    height: 100%;
-}
-
-.area-intergranted-login {
+.area-integrated-login {
     width: 310px;
     margin: 0 auto;
 }
 
-.area-intergranted-login .tit {
+.area-integrated-login .tit {
     font-size: 28px;
     font-weight: normal;
     line-height: 38px;
@@ -147,32 +135,26 @@ a {
     margin: 26px 0 45px;
 }
 
-address, caption, cite, code, dfn, em, strong, th, var {
-    font-weight: normal;
-    font-style: normal;
-}
-
-.area-intergranted-login.person .tit:after {
+.area-integrated-login.person .tit:after {
     display: block;
     margin: 48px auto 100px;
     width: 254px;
     height: 150px;
-    background-image: url(https://www.saraminimage.co.kr/sri/login/ico-login-model1.png);
+    background-image: url(https://www.saraminimage.co.kr/sri/login/ico_login_model1.png);
     background-size: cover;
-    content: '';
+    content: "";
 }
 
-.area-intergranted-login .area-btn {
+.area-integrated-login .area-btn {
     position: relative;
 }
 
-.area-intergranted-login .area-btn>a {
+.area-integrated-login .area-btn > a {
     width: 100%;
     position: relative;
 }
 
-
-[class*="BtnType"] {
+[class*="btn-type"] {
     display: inline-flex;
     position: relative;
     border: 1px solid var(--blue90);
@@ -186,54 +168,44 @@ address, caption, cite, code, dfn, em, strong, th, var {
     align-items: center;
 }
 
-
-[class*="BtnType"].BlueInvert {
+[class*="btn-type"].blue-invert {
     border-color: var(--blue90);
     color: var(--blue90);
     background: var(--white);
 }
 
-[class*="BtnType"].SizeL {
+[class*="btn-type"].size-l {
     padding: 10px 15px 12px;
     height: 48px;
     font-size: 16px;
     line-height: 24px;
 }
 
-.area-intergranted-login .area-btn>a {
-    width: 100%;
-    position: relative;
-}
-
-.area-intergranted-login .area-btn {
-    position: relative;
-}
-
-[class*="BtnType"].BlueInvert:hover {
+[class*="btn-type"].blue-invert:hover {
     background: var(--blue20);
 }
 
-.area-intergranted-login.company .tit:after {
+.area-integrated-login.company .tit:after {
     display: block;
     margin: 48px auto 100px;
     width: 191px;
     height: 150px;
-    background-image: url(https://www.saraminimage.co.kr/sri/login/ico-login-model2.png);
+    background-image: url(https://www.saraminimage.co.kr/sri/login/ico_login_model2.png);
     background-size: cover;
-    content: '';
+    content: "";
 }
 
-.wrap-intergranted-login-page .box-intergrated-login .box-right {
+.wrap-integrated-login-page .box-integrated-login .box-right {
     position: relative;
 }
 
-.wrap-intergranted-login-page .box-intergrated-login .box-right:before {
+.wrap-integrated-login-page .box-integrated-login .box-right:before {
     width: 1px;
     height: 100%;
     background-color: var(--gray40);
     position: absolute;
     left: 0;
-    content: '';
+    content: "";
 }
 
 .login-page-wrap {
@@ -243,7 +215,7 @@ address, caption, cite, code, dfn, em, strong, th, var {
     align-items: center;
 }
 
-.wrap-intergranted-login-page .box-intergrated-login .box-right .login-frm {
+.wrap-integrated-login-page .box-integrated-login .box-right .login-frm {
     margin-top: 0;
 }
 
@@ -257,10 +229,6 @@ address, caption, cite, code, dfn, em, strong, th, var {
 
 .login-page-wrap .login-input-wrap {
     width: 320px;
-}
-
-.login-input-wrap, .pop-login-layer {
-    --common-a-hover-color: #3769ed;
 }
 
 .login-input-wrap .tab-member-type {
@@ -284,44 +252,18 @@ address, caption, cite, code, dfn, em, strong, th, var {
     color: #373f73;
 }
 
-button, label {
-    cursor: pointer;
-}
-
 .login-input-wrap .tab-member-type li {
     flex: 1 1 50%;
     text-align: center;
 }
 
-input, button, textarea, select, optgroup, option {
-    font-family: inherit;
-    font-size: inherit;
-    font-weight: inherit;
-    font-style: inherit;
-}
-
-.login-input-wrap .tab-member-type li .btn-tab {
-    position: relative;
-    color: #8491a7;
-    font-size: 24px;
-    line-height: 34px;
-    width: 100%;
-}
-
-.login-input-wrap .tab-member-type li .btn-tab.active {
-    font-weight: 700;
-    color: #373f73;
-}
-
 button, label {
     cursor: pointer;
 }
 
-
 button {
     border: 0;
     background: transparent;
-    cursor: pointer;
 }
 
 .login-input-wrap .tab-member-type li .btn-tab.active:before {
@@ -333,12 +275,6 @@ button {
     height: 3px;
     content: "";
     background-color: #4876ef;
-}
-
-button {
-    border: 0;
-    background: transparent;
-    cursor: pointer;
 }
 
 .login-input-wrap .login-form {
@@ -375,6 +311,12 @@ button {
     transition: all 300ms ease;
 }
 
+.login-input-wrap .login-form input:focus ~ label, .login-input-wrap .login-form input:valid ~ label, .login-input-wrap .login-form input:-webkit-autofill ~ label {
+    font-size: 12px;
+    top: 8px;
+    color: #373f57;
+}
+
 .login-input-wrap .setting {
     display: flex;
     flex-flow: row nowrap;
@@ -385,27 +327,22 @@ button {
     margin-top: 12px;
 }
 
-.InpBox {
+.inp-box {
     display: inline-block;
     vertical-align: top;
 }
 
-
-.login-input-wrap .setting .InpBox:first-child {
+.login-input-wrap .setting .inp-box:first-child {
     margin-right: 12px;
 }
 
-.InpBox .Chk {
+.inp-box .chk {
     display: inline-block;
     position: relative;
     vertical-align: top;
 }
 
-.login-input-wrap .login-form input:focus, .login-input-wrap .login-form input:valid, .login-input-wrap .login-form input:-webkit-autofill {
-    padding: 24px 12px 9px 12px;
-}
-
-.InpBox .Chk input {
+.inp-box .chk input {
     position: absolute;
     top: 0;
     width: 1px;
@@ -415,7 +352,7 @@ button {
     pointer-events: none;
 }
 
-.InpBox .Chk .Lbl {
+.inp-box .chk .lbl {
     display: block;
     position: relative;
     color: var(--gray100);
@@ -423,17 +360,7 @@ button {
     line-height: 20px;
 }
 
-.login-input-wrap .login-form input:focus ~ label, .login-input-wrap .login-form input:valid ~ label, .login-input-wrap .login-form input:-webkit-autofill ~ label {
-    font-size: 12px;
-    top: 8px;
-    color: #373f57;
-}
-
-.login-input-wrap .login-form .setting label {
-    position: static;
-}
-
-.InpBox .Chk .Lbl:before {
+.inp-box .chk .lbl:before {
     display: inline-block;
     margin-right: 8px;
     width: 18px;
@@ -442,10 +369,10 @@ button {
     border-radius: 4px;
     vertical-align: top;
     background: #fff;
-    content: '';
+    content: "";
 }
 
-.InpBox .Chk .Lbl:after {
+.inp-box .chk .lbl:after {
     display: none;
     position: absolute;
     top: 5px;
@@ -456,15 +383,15 @@ button {
     border-left: 2px solid var(--white);
     border-radius: 1px;
     transform: rotate(-45deg);
-    content: '';
+    content: "";
 }
 
-.InpBox .Chk input:checked~.Lbl:after {
+.inp-box .chk input:checked ~ .lbl:after {
     display: inline-block;
     border-color: var(--white);
 }
 
-.InpBox .Chk input:checked~.Lbl:before {
+.inp-box .chk input:checked ~ .lbl:before {
     border-color: var(--blue90);
     background: var(--blue90);
 }
@@ -475,31 +402,18 @@ button {
     border-radius: 4px;
 }
 
-.InpBox .Chk input:focus~.Lbl:before {
+.inp-box .chk input:focus ~ .lbl:before {
     border-radius: 4px;
     outline: 2px solid var(--blue100);
     outline-offset: 2px;
 }
 
-[class*="BtnType"].SizeML {
+[class*="btn-type"].size-ml {
     padding: 13px 15px 15px;
     height: 56px;
     font-size: 18px;
     font-weight: bold;
     line-height: 26px;
-}
-[class*="BtnType"] {
-    display: inline-flex;
-    position: relative;
-    border: 1px solid var(--blue90);
-    border-radius: 4px;
-    box-sizing: border-box;
-    color: var(--white);
-    text-align: center;
-    vertical-align: top;
-    background-color: var(--blue90);
-    justify-content: center;
-    align-items: center;
 }
 
 .login-input-wrap .login-form .btn-login {
@@ -525,19 +439,14 @@ button {
     color: #373f57;
 }
 
-.login-input-wrap .signup-forgotten>a {
+.login-input-wrap .signup-forgotten > a {
     text-align: center;
     position: relative;
 }
 
-.login-input-wrap .signup-forgotten>a +a {
+.login-input-wrap .signup-forgotten > a + a {
     padding-left: 12px;
     margin-left: 12px;
-}
-
-.login-input-wrap .signup-forgotten>a {
-    text-align: center;
-    position: relative;
 }
 
 .login-input-wrap .signup-forgotten .sign-up + .forgotten:after {
@@ -562,30 +471,13 @@ button {
     line-height: 24px;
 }
 
-.login-input-wrap .social-login-tit .tit:before {
-    margin-right: 8px;
-}
-
 .login-input-wrap .social-login-tit .tit:before, .login-input-wrap .social-login-tit .tit:after {
     width: 60px;
     height: 1px;
     background-color: #eaedf4;
     display: inline-block;
     vertical-align: super;
-    content: '';
-}
-
-.login-input-wrap .social-login-tit .tit:after {
-    margin-left: 8px;
-}
-
-.login-input-wrap .social-login-tit .tit:before, .login-input-wrap .social-login-tit .tit:after {
-    width: 60px;
-    height: 1px;
-    background-color: #eaedf4;
-    display: inline-block;
-    vertical-align: super;
-    content: '';
+    content: "";
 }
 
 .login-input-wrap .social-login {
@@ -596,14 +488,14 @@ button {
     padding-top: 24px;
 }
 
-.icon-kakao{
+.icon-kakao {
     background: url(/static/images/login/kakao-login-medium-wide.png);
     background-repeat: no-repeat;
     margin-left: 10px;
     height: 45px;
 }
 
-.social-login{
+.social-login {
     height: 70px;
 }
 
@@ -611,3 +503,24 @@ button {
     text-decoration: unset;
     margin-left: auto;
 }
+
+#mask0-2800-18175 {
+    mask-type: luminance;
+}
+
+.link-rater {
+    display: none;
+}
+
+.setting > .inp-box {
+    display: block;
+}
+
+.area-integrated-login .company .company-logo {
+    display: none;
+}
+
+.area-integrated-login .person .person-logo {
+    display: block;
+}
+
