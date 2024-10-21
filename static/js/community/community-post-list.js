@@ -44,9 +44,7 @@ function renderPosts(posts) {
                 <span class="qna-info qna-view">조회 <strong>${post.viewCount}</strong></span>
                 <div class="qna-member-info">
                     <span class="qna-from">${post.author}님이 ${post.date}</span>
-                    <div class="tip-box">
-                        <button type="button" class="btn-qna-bookmark repute-scrap">스크랩</button>
-                    </div>
+                   
                 </div>
             </div>
             <a href="" class="go">자세히 보기</a>
