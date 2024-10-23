@@ -445,7 +445,6 @@ function createViewA() {
                         <option value="middle">중학교 졸업</option>
                         <option value="high">고등학교 졸업</option>
                         <option value="university">대학ㆍ대학원 이상 졸업</option>
-                        <option value="academy">기타 학력 졸업</option>
                     </select>
                 </div>
             </div>
@@ -478,7 +477,6 @@ function createViewB() {
                             <option value="middle">중학교 졸업</option>
                             <option value="high">고등학교 졸업</option>
                             <option value="university">대학ㆍ대학원 이상 졸업</option>
-                            <option value="academy">기타 학력 졸업</option>
                         </select>
                     </div>
 
@@ -502,42 +500,10 @@ function createViewB() {
                             <option value="middle">중학교 졸업</option>
                             <option value="high">고등학교 졸업</option>
                             <option value="university">대학ㆍ대학원 이상 졸업</option>
-                            <option value="academy">기타 학력 졸업</option>
                         </select>
                     </div>
 
-                    <div class="InpBox SizeL item-s">
-                        <label for="schoolAreaCode" class="blind">지역</label>
-                            <select id="schoolAreaCode">
-                                <option value="" selected="selected">지역 선택</option>
-                                <option value="101000">서울</option>
-                                <option value="102000">경기</option>
-                                <option value="103000">광주</option>
-                                <option value="104000">대구</option>
-                                <option value="105000">대전</option>
-                                <option value="106000">부산</option>
-                                <option value="107000">울산</option>
-                                <option value="108000">인천</option>
-                                <option value="109000">강원</option>
-                                <option value="110000">경남</option>
-                                <option value="111000">경북</option>
-                                <option value="112000">전남</option>
-                                <option value="113000">전북</option>
-                                <option value="114000">충북</option>
-                                <option value="115000">충남</option>
-                                <option value="116000">제주</option>
-                                <option value="117000">전국</option>
-                                <option value="118000">세종</option>
-                                <option value="210000">아시아·중동</option>
-                                <option value="220000">북·중미</option>
-                                <option value="230000">남미</option>
-                                <option value="240000">유럽</option>
-                                <option value="250000">오세아니아</option>
-                                <option value="260000">아프리카</option>
-                                <option value="270000">남극대륙</option>
-                                <option value="280000">기타해외</option>
-                            </select>
-                    </div>
+                    
 
                     <div class="TypoBox item item-s LblTop">
                         <label for="qualGraduationDt" class="Lbl">합격년월 *</label>
@@ -585,38 +551,7 @@ function createViewB() {
                             pattern="[0-9]*" required="" />
                     </div>
 
-                    <div class="InpBox SizeL item-s">
-                        <label for="schoolAreaCode" class="blind">지역</label>
-                        <select id="schoolAreaCode">
-                            <option value="">지역 선택</option>
-                            <option value="101000">서울</option>
-                            <option value="102000">경기</option>
-                            <option value="103000">광주</option>
-                            <option value="104000">대구</option>
-                            <option value="105000">대전</option>
-                            <option value="106000">부산</option>
-                            <option value="107000">울산</option>
-                            <option value="108000">인천</option>
-                            <option value="109000">강원</option>
-                            <option value="110000">경남</option>
-                            <option value="111000">경북</option>
-                            <option value="112000">전남</option>
-                            <option value="113000">전북</option>
-                            <option value="114000">충북</option>
-                            <option value="115000">충남</option>
-                            <option value="116000">제주</option>
-                            <option value="117000">전국</option>
-                            <option value="118000">세종</option>
-                            <option value="210000">아시아·중동</option>
-                            <option value="220000">북·중미</option>
-                            <option value="230000">남미</option>
-                            <option value="240000">유럽</option>
-                            <option value="250000">오세아니아</option>
-                            <option value="260000">아프리카</option>
-                            <option value="270000">남극대륙</option>
-                            <option value="280000">기타해외</option>
-                        </select>
-                    </div>
+                    
                 </div>
                 <div class="resume-save notCached">
                     <button type="button" class="BtnType SizeL BlueInvert evtLayerClose w50">취소</button>
@@ -646,7 +581,6 @@ function createViewB_1() {
                             <option value="middle"  selected="">중학교 졸업</option>
                             <option value="high">고등학교 졸업</option>
                             <option value="university">대학ㆍ대학원 이상 졸업</option>
-                            <option value="academy">기타 학력 졸업</option>
                         </select>
                     </div>
 
@@ -670,42 +604,10 @@ function createViewB_1() {
                             <option value="middle" selected="selected">중학교 졸업</option>
                             <option value="high">고등학교 졸업</option>
                             <option value="university">대학ㆍ대학원 이상 졸업</option>
-                            <option value="academy">기타 학력 졸업</option>
                         </select>
                     </div>
 
-                    <div class="InpBox SizeL item-s">
-                        <label for="schoolAreaCode" class="blind">지역</label>
-                            <select id="schoolAreaCode">
-                                <option value="" selected="selected">지역 선택</option>
-                                <option value="101000">서울</option>
-                                <option value="102000">경기</option>
-                                <option value="103000">광주</option>
-                                <option value="104000">대구</option>
-                                <option value="105000">대전</option>
-                                <option value="106000">부산</option>
-                                <option value="107000">울산</option>
-                                <option value="108000">인천</option>
-                                <option value="109000">강원</option>
-                                <option value="110000">경남</option>
-                                <option value="111000">경북</option>
-                                <option value="112000">전남</option>
-                                <option value="113000">전북</option>
-                                <option value="114000">충북</option>
-                                <option value="115000">충남</option>
-                                <option value="116000">제주</option>
-                                <option value="117000">전국</option>
-                                <option value="118000">세종</option>
-                                <option value="210000">아시아·중동</option>
-                                <option value="220000">북·중미</option>
-                                <option value="230000">남미</option>
-                                <option value="240000">유럽</option>
-                                <option value="250000">오세아니아</option>
-                                <option value="260000">아프리카</option>
-                                <option value="270000">남극대륙</option>
-                                <option value="280000">기타해외</option>
-                            </select>
-                    </div>
+            
 
                     <div class="TypoBox item item-s LblTop">
                         <label for="qualGraduationDt" class="Lbl">합격년월 *</label>
@@ -753,38 +655,7 @@ function createViewB_1() {
                             pattern="[0-9]*" required="" />
                     </div>
 
-                    <div class="InpBox SizeL item-s">
-                        <label for="schoolAreaCode" class="blind">지역</label>
-                        <select id="schoolAreaCode">
-                            <option value="">지역 선택</option>
-                            <option value="101000">서울</option>
-                            <option value="102000">경기</option>
-                            <option value="103000">광주</option>
-                            <option value="104000">대구</option>
-                            <option value="105000">대전</option>
-                            <option value="106000">부산</option>
-                            <option value="107000">울산</option>
-                            <option value="108000">인천</option>
-                            <option value="109000">강원</option>
-                            <option value="110000">경남</option>
-                            <option value="111000">경북</option>
-                            <option value="112000">전남</option>
-                            <option value="113000">전북</option>
-                            <option value="114000">충북</option>
-                            <option value="115000">충남</option>
-                            <option value="116000">제주</option>
-                            <option value="117000">전국</option>
-                            <option value="118000">세종</option>
-                            <option value="210000">아시아·중동</option>
-                            <option value="220000">북·중미</option>
-                            <option value="230000">남미</option>
-                            <option value="240000">유럽</option>
-                            <option value="250000">오세아니아</option>
-                            <option value="260000">아프리카</option>
-                            <option value="270000">남극대륙</option>
-                            <option value="280000">기타해외</option>
-                        </select>
-                    </div>
+                    
                 </div>
                 <div class="resume-save notCached">
                     <button type="button" class="BtnType SizeL BlueInvert evtLayerClose w50">취소</button>
@@ -814,7 +685,6 @@ function createViewB_2() {
                             <option value="middle">중학교 졸업</option>
                             <option value="high"   selected="">고등학교 졸업</option>
                             <option value="university">대학ㆍ대학원 이상 졸업</option>
-                            <option value="academy">기타 학력 졸업</option>
                         </select>
                     </div>
 
@@ -838,42 +708,10 @@ function createViewB_2() {
                             <option value="middle" >중학교 졸업</option>
                             <option value="high" selected="selected">고등학교 졸업</option>
                             <option value="university">대학ㆍ대학원 이상 졸업</option>
-                            <option value="academy">기타 학력 졸업</option>
                         </select>
                     </div>
 
-                    <div class="InpBox SizeL item-s">
-                        <label for="schoolAreaCode" class="blind">지역</label>
-                            <select id="schoolAreaCode">
-                                <option value="" selected="selected">지역 선택</option>
-                                <option value="101000">서울</option>
-                                <option value="102000">경기</option>
-                                <option value="103000">광주</option>
-                                <option value="104000">대구</option>
-                                <option value="105000">대전</option>
-                                <option value="106000">부산</option>
-                                <option value="107000">울산</option>
-                                <option value="108000">인천</option>
-                                <option value="109000">강원</option>
-                                <option value="110000">경남</option>
-                                <option value="111000">경북</option>
-                                <option value="112000">전남</option>
-                                <option value="113000">전북</option>
-                                <option value="114000">충북</option>
-                                <option value="115000">충남</option>
-                                <option value="116000">제주</option>
-                                <option value="117000">전국</option>
-                                <option value="118000">세종</option>
-                                <option value="210000">아시아·중동</option>
-                                <option value="220000">북·중미</option>
-                                <option value="230000">남미</option>
-                                <option value="240000">유럽</option>
-                                <option value="250000">오세아니아</option>
-                                <option value="260000">아프리카</option>
-                                <option value="270000">남극대륙</option>
-                                <option value="280000">기타해외</option>
-                            </select>
-                    </div>
+                   
 
                     <div class="TypoBox item item-s LblTop">
                         <label for="qualGraduationDt" class="Lbl">합격년월 *</label>
@@ -921,38 +759,7 @@ function createViewB_2() {
                             pattern="[0-9]*" required="" />
                     </div>
 
-                    <div class="InpBox SizeL item-s">
-                        <label for="schoolAreaCode" class="blind">지역</label>
-                        <select id="schoolAreaCode">
-                            <option value="">지역 선택</option>
-                            <option value="101000">서울</option>
-                            <option value="102000">경기</option>
-                            <option value="103000">광주</option>
-                            <option value="104000">대구</option>
-                            <option value="105000">대전</option>
-                            <option value="106000">부산</option>
-                            <option value="107000">울산</option>
-                            <option value="108000">인천</option>
-                            <option value="109000">강원</option>
-                            <option value="110000">경남</option>
-                            <option value="111000">경북</option>
-                            <option value="112000">전남</option>
-                            <option value="113000">전북</option>
-                            <option value="114000">충북</option>
-                            <option value="115000">충남</option>
-                            <option value="116000">제주</option>
-                            <option value="117000">전국</option>
-                            <option value="118000">세종</option>
-                            <option value="210000">아시아·중동</option>
-                            <option value="220000">북·중미</option>
-                            <option value="230000">남미</option>
-                            <option value="240000">유럽</option>
-                            <option value="250000">오세아니아</option>
-                            <option value="260000">아프리카</option>
-                            <option value="270000">남극대륙</option>
-                            <option value="280000">기타해외</option>
-                        </select>
-                    </div>
+                    
                 </div>
                 <div class="resume-save notCached">
                     <button type="button" class="BtnType SizeL BlueInvert evtLayerClose w50">취소</button>
@@ -979,7 +786,6 @@ function createViewC() {
                             <option value="middle">중학교 졸업</option>
                             <option value="high">고등학교 졸업</option>
                             <option value="university" selected="">대학ㆍ대학원 이상 졸업</option>
-                            <option value="academy">기타 학력 졸업</option>
                         </select>
                     </div>
 
@@ -1083,113 +889,6 @@ function createViewC() {
     return div3;
 }
 
-// View D를 생성하는 함수
-function createViewD() {
-    const div4 = document.createElement("div");
-    div4.innerHTML = `
-        <div id="resumeSchoolItem" class="resume-edit wrapHiddenForm">
-            <div class="item-row item-center">
-                <div class="InpBox SizeL item-m">
-                    <label for="schoolType-1729132115363" class="blind">학력구분</label>
-                    <select name="school-type" id="schoolType-1729132115363" class="evtChangeSchoolType">
-                        <option value="basic">학력 구분 선택 *</option>
-                        <option value="primary">초등학교 졸업</option>
-                        <option value="middle">중학교 졸업</option>
-                        <option value="high">고등학교 졸업</option>
-                        <option value="university">대학ㆍ대학원 이상 졸업</option>
-                        <option value="academy" selected="">직업전문학원ㆍ학교 및 기타학력 졸업</option>
-                    </select>
-                </div>
-                <div class="InpBox SizeL item-s check">
-                    <label for="academyAdmittedEducationCd-1729132115363" class="blind"></label>
-                    <select name="academy-admitted-education-cd[]" id="academyAdmittedEducationCd-1729132115363">
-                        <option value="">인정학력 *</option>
-                        <option value="2">대학(2,3년)</option>
-                        <option value="3">대학교(4년)</option>
-                    </select>
-                </div>
-                <div class="TypoBox TypeBtn item-m">
-                    <label for="academyNm-1729132115363" class="blind">학교/학원명 *</label>
-                    <input type="text" name="academy-nm[]" id="academyNm-1729132115363" 
-                        class="Typo SizeL check" maxlength="100" placeholder="학교/학원명 *" />
-                </div>
-            </div>
-            <div class="item-row">
-                <div class="TypoBox item-m">
-                    <label for="academyMajor-1729132115363" class="blind">전공분야</label>
-                    <input type="text" name="academy-major[]" id="academyMajor-1729132115363" 
-                        class="Typo SizeL check" maxlength="50" placeholder="전공분야 *" />
-                </div>
-                <div class="InpBox SizeL item-s check">
-                    <label for="academyGraduationGb-1729132115363" class="blind">졸업구분</label>
-                    <select name="academy-graduation-gb[]" id="academyGraduationGb-1729132115363" required="">
-                        <option value="">졸업구분 *</option>
-                        <option value="1">졸업</option>
-                        <option value="2">재학중</option>
-                        <option value="3">휴학중</option>
-                        <option value="4">수료</option>
-                        <option value="5">중퇴</option>
-                        <option value="7">자퇴</option>
-                        <option value="6">졸업예정</option>
-                    </select>
-                </div>
-                <div class="TypoBox item-s LblTop">
-                    <label for="academyEntranceDt-1729132115363" class="Lbl">입학년월 *</label>
-                    <input type="text" name="academy-entrance-dt[]" id="academyEntranceDt-1729132115363" 
-                        class="Typo SizeL onlyNumber DatePic datePicker check" data-dateformat="yymm" 
-                        maxlength="6" placeholder="YYYYMM" inputmode="numeric" pattern="[0-9]*" required="" />
-                </div>
-                <div class="TypoBox item-s LblTop">
-                    <label for="academyGraduationDt-1729132115363" class="Lbl">졸업년월 *</label>
-                    <input type="text" name="academy-graduation-dt[]" id="academyGraduationDt-1729132115363" 
-                        class="Typo SizeL onlyNumber DatePic datePicker check" data-dateformat="yymm" 
-                        maxlength="6" placeholder="YYYYMM" inputmode="numeric" pattern="[0-9]*" required="" />
-                </div>
-                <div class="InpBox SizeL item-s check">
-                    <label for="academyAreaCode-1729132115363" class="blind">지역</label>
-                    <select name="academy-area-code[]" id="academyAreaCode-1729132115363">
-                        <option value="">지역 *</option>
-                        <option value="101000">서울</option>
-                        <option value="102000">경기</option>
-                        <option value="103000">광주</option>
-                        <option value="104000">대구</option>
-                        <option value="105000">대전</option>
-                        <option value="106000">부산</option>
-                        <option value="107000">울산</option>
-                        <option value="108000">인천</option>
-                        <option value="109000">강원</option>
-                        <option value="110000">경남</option>
-                        <option value="111000">경북</option>
-                        <option value="112000">전남</option>
-                        <option value="113000">전북</option>
-                        <option value="114000">충북</option>
-                        <option value="115000">충남</option>
-                        <option value="116000">제주</option>
-                        <option value="117000">전국</option>
-                        <option value="118000">세종</option>
-                        <option value="210000">아시아·중동</option>
-                        <option value="220000">북·중미</option>
-                        <option value="230000">남미</option>
-                        <option value="240000">유럽</option>
-                        <option value="250000">오세아니아</option>
-                        <option value="260000">아프리카</option>
-                        <option value="270000">남극대륙</option>
-                        <option value="280000">기타해외</option>
-                    </select>
-                </div>
-            </div>
-            <div class="resume-save notCached">
-                <button type="button" class="BtnType SizeL BlueInvert evtLayerClose w50">취소</button>
-                <button type="button" class="BtnType SizeL evtLayerSave w50">저장</button>
-            </div>
-        </div>
-    `;
-
-    attachSelectEventHandlers(div4, showView); // 공통 이벤트 핸들러 적용
-
-    return div4;
-}
-
 // 공통 함수: 선택한 select 요소에 이벤트 핸들러 추가
 function attachSelectEventHandlers(container, showView) {
     const selectElements = container.querySelectorAll("select");
@@ -1206,9 +905,6 @@ function attachSelectEventHandlers(container, showView) {
                     break;
                 case "university":
                     showView("C");
-                    break;
-                case "academy":
-                    showView("D");
                     break;
                 case "middle":
                     showView("B_1");
@@ -1229,7 +925,6 @@ function showView(viewName) {
         A: createViewA,
         B: createViewB,
         C: createViewC,
-        D: createViewD,
         B_1: createViewB_1,
         B_2: createViewB_2,
     };
@@ -1267,7 +962,7 @@ function setupSchoolEventHandlers(container) {
     );
     const schoolMajor = container.querySelector("#schoolMajor");
     const spanElement = container.querySelector(".Chk.SizeL");
-    const labelText = spanElement.querySelector("label").textContent;
+    const labelText = spanElement.querySelector("label");
 
     // 최종 날짜 문자열 생성 함수
     function getDateString() {
@@ -1338,7 +1033,7 @@ function setupSchoolEventHandlers(container) {
         } else {
             console.log("Validation failed");
             resetSchoolInfo();
-            schoolNameSpan.textContent = labelText; // 초기값으로 되돌리기
+            schoolNameSpan.textContent = labelText.textContent; // 초기값으로 되돌리기
             const dateString = getDateString();
             date.textContent = `${dateString} 합격`;
         }
@@ -1484,7 +1179,10 @@ document.addEventListener("click", (event) => {
     if (checkboxN) checkboxN.checked = false; // 첫 번째 체크박스: 항상 해제
     if (checkboxY) checkboxY.checked = true; // 두 번째 체크박스: 항상 선택
 
-    if (event.target.classList.contains("evtLayerClose")) {
+    if (
+        event.target.classList.contains("evtLayerClose") ||
+        event.target.classList.contains("evtLayerSave")
+    ) {
         const resumeEdit = event.target.closest(".resume-edit");
         // if (resumeEdit) resumeEdit.remove();
         if (resumeEdit) resumeEdit.style.display = "none";

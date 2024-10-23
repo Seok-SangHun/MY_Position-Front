@@ -220,6 +220,68 @@
                                                         </div>
                                                     </td>
                                                 </tr>
+                                                <!-- 닉네임 -->
+                                                <tr class="field">
+                                                    <th scope="row">닉네임</th>
+                                                    <td>
+                                                        <div class="field-body">
+                                                            <span
+                                                                class="empty"
+                                                                id="view-name-empty"
+                                                                >이름을
+                                                                입력해주세요.</span
+                                                            >
+                                                            <b id="view-name"
+                                                                >포지셔너</b
+                                                            >
+                                                        </div>
+                                                        <div
+                                                            class="field-body inactive"
+                                                        >
+                                                            <div
+                                                                class="TypoBox"
+                                                            >
+                                                                <input
+                                                                    type="text"
+                                                                    name="change-name"
+                                                                    id="change-name"
+                                                                    class="Typo"
+                                                                    placeholder="이름을 입력해주세요"
+                                                                    value="포지셔너"
+                                                                />
+                                                                <input
+                                                                    type="hidden"
+                                                                    id="org-change-name"
+                                                                />
+                                                            </div>
+                                                        </div>
+                                                        <div class="field-btn">
+                                                            <button
+                                                                type="button"
+                                                                class="BtnType SizeS btn-modify"
+                                                                data-type="name"
+                                                            >
+                                                                수정
+                                                            </button>
+                                                            <button
+                                                                type="button"
+                                                                id="btnName"
+                                                                class="BtnType SizeS btn-confirm"
+                                                                disabled=""
+                                                            >
+                                                                확인
+                                                            </button>
+                                                            <button
+                                                                type="button"
+                                                                class="BtnType SizeS btn-modify-cancel"
+                                                                disabled=""
+                                                            >
+                                                                취소
+                                                            </button>
+                                                        </div>
+                                                    </td>
+                                                </tr>
+                                                <!-- 생년월일 -->
                                                 <tr class="field">
                                                     <th scope="row">
                                                         생년월일
@@ -842,5 +904,23 @@
             </svg>
         </div>
     </body>
+
+    <!-- 다음 우편번호 검색 API 스크립트 -->
+    <script src="//t1.daumcdn.net/mapjsapi/bundle/postcode/prod/postcode.v2.js"></script>
+    <script>
+        const addressAddBtn = document.querySelector("#select-address1");
+
+        // 버튼 클릭 시 팝업 열기
+        addressAddBtn.addEventListener("click", function () {
+            new daum.Postcode({
+                oncomplete: function (data) {
+                    // 선택된 주소를 input 필드에 설정
+                    addressAddBtn.value = data.address; // 주소 설정
+                    console.log(data); // 선택된 주소 데이터 확인
+                },
+            }).open(); // 팝업 열기
+        });
+    </script>
+
     <script src="/static/js/my-page/my-info-kakao-detail.js"></script>
 </html>
