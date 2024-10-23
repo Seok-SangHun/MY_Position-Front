@@ -1,4 +1,4 @@
-#sri-section {
+#position-section {
     display: grid;
     grid-template-areas:
         "gnb main"
@@ -10,7 +10,7 @@
     min-height: 100%;
     box-sizing: border-box;
 }
-#sri-wrap {
+#position-wrap {
     grid-area: main;
     display: table-row;
     width: 100%;
@@ -340,7 +340,7 @@ option {
     z-index: 3;
     width: 24px;
     height: 24px;
-    background: url(//www.saraminimage.co.kr/sri/person/spr/spr-stars.png)
+    background: url(//www.saraminimage.co.kr/position/person/spr/spr-stars.png)
         no-repeat -5px -5px;
 }
 
@@ -380,7 +380,7 @@ option {
     width: 120px;
     text-align: center;
 }
-.sri-btn-ml {
+.position-btn-ml {
     overflow: hidden;
     margin: 0;
     padding: 0;
@@ -392,13 +392,13 @@ option {
     vertical-align: top;
     cursor: pointer;
 }
-.sri-btn-ml span.sri-btn-immediately,
-.sri-btn-ml span.sri-btn-recruitin-apply {
+.position-btn-ml span.position-btn-immediately,
+.position-btn-ml span.position-btn-recruitin-apply {
     position: relative;
     border: 1px solid var(--coral110);
     color: var(--coral110);
 }
-.sri-btn-ml span {
+.position-btn-ml span {
     display: inline-block;
     width: 118px;
     height: 38px;
@@ -525,7 +525,7 @@ option {
     color: var(--gray100);
     font-size: 14px;
     line-height: 24px;
-    background: url(//www.saraminimage.co.kr/sri/person/resume/img-empty-announce.png)
+    background: url(//www.saraminimage.co.kr/position/person/resume/img-empty-announce.png)
         50% 0 no-repeat;
 }
 .wrap-list .no-row .txt b {

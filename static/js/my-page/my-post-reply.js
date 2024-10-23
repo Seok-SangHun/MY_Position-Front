@@ -130,8 +130,8 @@ const renderList = (data) => {
                     </span>
                 </div>
                 <div class="col-btns">
-                    <button class="sri-btn-ml">
-                        <span class="sri-btn-immediately">삭제하기</span>
+                    <button class="position-btn-ml">
+                        <span class="position-btn-immediately">삭제하기</span>
                     </button>
                     <span class="date">
                         ${item.deadline}
