@@ -996,7 +996,7 @@ ol, ul, li {
     font-size: 13px;
     line-height: 18px;
 }
- .col-summary .btn-report:before {
+ .col-summary .btn-report svg {
     display: inline-block;
     margin-right: 8px;
     width: 16px;
@@ -1313,4 +1313,10 @@ button, label {
 }
 .info-view{
     margin-top: 20px;
+}
+.col-summary .btn-report .ic {
+    margin-right: 5px;
+    width: 12px;
+    height: 13px;
+    vertical-align: -1px;
 }
